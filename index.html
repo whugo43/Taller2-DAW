@@ -4,8 +4,8 @@
  
 <head>
 <title>Geekdom Food and Games</title>
-<meta charset="encoding" />
-<meta name="description" content="Game Bar and Café">
+<meta charset="utf-8" />
+<meta name="description" content="Game Bar and Cafe">
 <meta name="keywords" content="food, game">
 <link rel="stylesheet" href="estilo.css">
 </head>
@@ -13,28 +13,29 @@
 <body>
     <header>
        <img src="geek-dom-ec.jpg" alt="">
-       <center>
+       
        <h1>Geekdom Food and Games</h1>
-       <h2>Game Bar and Café</h2></center>
+       <h2>Game Bar and Cafe</h2>
+    
     </header>
 
     <section>
     
-      <form>
+      <form name="form1" method="post" autocomplete="off" >
      <div><label for="nombre" >Nombre:</label>
-        <input type="text" name="" id="nombre" autocomplete="name">  </div>
+        <input type="text" name="nombre" id="nombre" autocomplete="name">  </div>
         
         <div><label for="correo">Correo: </label>
-          <input type="email" name="" id="correo" autocomplete="off" required="required"></div>
+          <input type="email" name="correo" id="correo" autocomplete="off" required="required"></div>
       
 <div>
         <label for="producto" >Producto a comprar:</label>
-        <input  name= " “misProductos" id="producto" list="productos">
+        <input  name= "misProductos" id="producto" list="productos">
 
   
     <datalist id= "productos">
     <option value= 'hamburguesa'></option>
-           <option value= 'café'></option>
+           <option value= 'cafe'></option>
            <option value= 'cervezas'></option>
            <option value= 'camiseta'></option>
            <option value= 'gorra'></option>
@@ -46,12 +47,12 @@
         <label for="fecha" >Fecha de entrega:</label>
   <input type="date" id="fecha"></div>
         
-        <center><input type="submit" value="enviar"></center>
+        <input type="submit" value="enviar">
       </form>
-	
+  
     </section>
 
-	
+  
     <footer>
         Centro Comercial Las Terrazas, Local 2.
     </footer>
